@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom styles */
+body { background: #f7fafc; }
+.navbar { background: linear-gradient(90deg,#6b46c1,#4c51bf); }
+.form-bg { background: linear-gradient(180deg,#e6f0ff,#d9eefc); }
+.list-bg { background: linear-gradient(180deg,#fff0e6,#ffe9d5); }
+.card { background: white; box-shadow: 0 6px 18px rgba(0,0,0,0.06); border-radius: 12px; }
+.input { @apply border rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-indigo-300; }
+.btn { @apply bg-indigo-600 text-white px-4 py-2 rounded shadow hover:bg-indigo-500; }
