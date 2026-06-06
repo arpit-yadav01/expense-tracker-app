@@ -67,7 +67,8 @@ export default function Navbar() {
               </svg>
             </div>
             <div className="text-2xl font-bold text-white group-hover:text-blue-100 transition-colors duration-300">
-              Expense Tracker Chnages addded by aidtya
+              Expense Tracker Report
+
             </div>
           </Link>
 
